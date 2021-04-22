@@ -1,0 +1,43 @@
+body{
+	padding: 20px 150px;
+	margin:0;
+	background: lightblue; 
+}
+
+div.naa{
+	width: 100%;
+	min-height:100px;
+	border-radius: 8px;
+	background: white;
+	padding: 30px;
+	margin-bottom: 15px;
+	
+
+}
+div.naa:first-child{
+	border-top: 20px solid blue;
+
+}
+label,input{
+	display: block;
+
+}
+input{
+	margin-top: 130px;
+	border: none;
+	border-bottom: 2px solid grey;
+
+	}
+	input[type="radio"]{
+		margin: 15px 15px 0 0;
+		display: inline-block;
+
+	}
+	input[type="submit"]{
+		background-color:blue;
+		border-radius: 4px;
+		height: 35px;
+		width:100px;
+	}
+	
+
